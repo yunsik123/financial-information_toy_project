@@ -1,0 +1,25 @@
+1.baseline   model_dir기본                                                                
+
+( gpuram대략32gb/40       A100사용)
+
+
+
+2.baseline2     model_f1score반영                   16.59/시간
+
+TrainOutput(global_step=1240, training_loss=0.7631437093980851, metrics={'train_runtime': 1066.0416, 'train_samples_per_second': 4.653, 'train_steps_per_second': 1.163, 'total_flos': 1.8214095140388864e+16, 'train_loss': 0.7631437093980851, 'epoch': 10.0})    
+
+( gpuram32.7gb/40       A100사용 15분정도걸림)
+
+
+
+3.
+baseline3   메모리적음f1score반영    
+
+
+( gpuram  14.9gb/15       T4 GPU사용 4시간50분정도걸림)   1.84/시간
+( gpuram  15.1gb/22.5       L4 GPU사용 3시간30분정도걸림)   4.82/시간
+
+
+
+
+
